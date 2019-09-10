@@ -19,6 +19,17 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
+#page {
+  min-height: 100vh;
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Utilities */
 
 /* Navigation */
@@ -39,12 +50,10 @@ ul {
 }
 
 .navbar-left {
-  /* border: 1px solid violet; */
   display: flex;
 }
 
 .navbar-right {
-  /* border: 1px solid saddlebrown; */
   display: flex;
   align-items: center;
 }
@@ -52,9 +61,29 @@ ul {
 /* Main */
 #main {
   background-color: aliceblue;
+  flex: 1;
 }
 
 /* Footer */
 #footer {
   background-color: azure;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer a {
+  display: block;
+  padding: 1rem;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-right {
+  display: flex;
 }
