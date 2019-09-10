@@ -1,0 +1,60 @@
+/* Baseline Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utilities */
+
+/* Navigation */
+#nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav a {
+  display: block;
+  padding: 1rem;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+.navbar-left {
+  /* border: 1px solid violet; */
+  display: flex;
+}
+
+.navbar-right {
+  /* border: 1px solid saddlebrown; */
+  display: flex;
+  align-items: center;
+}
+
+/* Main */
+#main {
+  background-color: aliceblue;
+}
+
+/* Footer */
+#footer {
+  background-color: azure;
+}
