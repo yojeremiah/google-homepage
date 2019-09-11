@@ -49,10 +49,7 @@ img {
   text-decoration: underline;
 }
 
-.navbar-left {
-  display: flex;
-}
-
+.navbar-left,
 .navbar-right {
   display: flex;
   align-items: center;
@@ -62,6 +59,34 @@ img {
 #main {
   background-color: aliceblue;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+}
+
+.main-container {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#search {
+  display: block;
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.75rem;
 }
 
 /* Footer */
