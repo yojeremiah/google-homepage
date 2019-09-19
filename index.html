@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Google</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <!-- Custom CSS -->
@@ -32,7 +37,12 @@
         <!-- Logo Image -->
         <img src="img/logo.png" alt="Google logo" class="logo" />
         <!-- Search Box -->
-        <input type="search" name="search" id="search" />
+        <div class="search-box">
+          <input type="text" name="search" id="search" maxlength="2048" />
+          <span class="placeholder-text"
+            ><i class="fa fa-search" aria-hidden="true"></i>
+          </span>
+        </div>
         <div class="btn-container">
           <button class="btn-search">Google Search</button>
           <button class="btn-search">I'm Feeling Lucky</button>
