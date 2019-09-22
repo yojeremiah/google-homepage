@@ -99,7 +99,8 @@ img {
   height: 44px;
   border-color: rgba(0, 0, 0, 0.87);
   color: rgba(0, 0, 0, 0.87);
-  outline-color: rgba(0, 0, 0, 0.87);
+  /* outline-color: rgba(0, 0, 0, 0.87); */
+  outline: 0;
   border: 1px solid #dfe1e5;
   padding: 0.5rem 1rem;
   padding-left: 2.6rem;
