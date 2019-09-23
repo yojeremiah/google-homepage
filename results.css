@@ -17,3 +17,9 @@ ul {
 img {
   display: block;
 }
+
+#page-wrapper {
+  margin-left: 150px;
+}
+
+/* Navigation */
