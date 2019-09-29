@@ -24,8 +24,9 @@ img {
   font-family: 'Arial', sans-serif;
 }
 
-#page-wrapper {
-  margin-left: 150px;
+#nav-wrapper {
+  /* margin-left: 150px; */
+  border-bottom: 1px solid rgb(235, 235, 235);
 }
 
 .container {
@@ -35,7 +36,8 @@ img {
 /* Navigation */
 #navbar {
   position: relative;
-  padding-top: 1rem;
+  padding-top: 1.1rem;
+  margin-left: 150px;
 }
 
 .logo {
@@ -45,39 +47,10 @@ img {
   left: -130px;
 }
 
-.btn-login {
-  font-size: 14px;
-  font-weight: bold;
-  color: #fff;
-  background-color: rgb(66, 133, 244);
-  border-radius: 5%;
-  padding: 0.5rem 0.75rem;
-}
-
-.btn-login:hover {
-  text-decoration: none;
-}
-
 .navbar-flex-container {
-  /* border: 1px solid #000; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navbar-right {
-  display: flex;
-}
-
-.navbar-right-item {
-  display: inline-block;
-  padding-right: 1.5rem;
-}
-
-.navbar-tabs {
-  /* border: 1px solid blue; */
-  width: 675px;
-  display: flex;
 }
 
 .search-box {
@@ -112,4 +85,53 @@ img {
   position: absolute;
   top: 11px;
   right: 85px;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right-item {
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+
+.btn-login {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(66, 133, 244);
+  border-radius: 5%;
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-login:hover {
+  text-decoration: none;
+}
+
+.navbar-tabs {
+  width: 675px;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.tab-item {
+  display: block;
+  padding: 1rem;
+  font-size: 13px;
+  color: rgb(95, 99, 104);
+}
+
+.tab-item:hover {
+  color: rgb(66, 133, 244);
+  cursor: pointer;
+}
+
+.current-tab {
+  color: rgb(66, 133, 244);
+  border-bottom: 3px solid rgb(66, 133, 244);
+}
+
+#settings-tab {
+  margin-left: 4rem;
 }
