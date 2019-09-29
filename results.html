@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Google - Search Results</title>
+    <title>full stack web development - Google Search Results</title>
 
     <!-- Font Awesome -->
     <link
@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="results.css" />
   </head>
   <body id="page">
+    <!-- Navigation -->
     <div id="nav-wrapper">
-      <!-- Navigation -->
       <nav id="navbar">
         <img
           src="img/results-logo.png"
@@ -28,7 +28,13 @@
         <div class="navbar-flex-container">
           <!-- Search Box -->
           <div class="search-box">
-            <input type="text" name="search" id="search" maxlength="2048" />
+            <input
+              type="text"
+              name="search"
+              id="search"
+              maxlength="2048"
+              value="full stack web development"
+            />
             <span class="placeholder-text"
               ><i class="fa fa-search hourglass" aria-hidden="true"></i>
             </span>
@@ -61,5 +67,24 @@
         </ul>
       </nav>
     </div>
+    <!-- Search Results -->
+    <section id="results">
+      <div class="results-container">
+        <p class="total-results">About 159,000,000 results (0.67 seconds)</p>
+        <div class="result-card">
+          <a href="#" class="card-title">What is Full Stack - W3Schools</a>
+          <a href="#" class="card-link"
+            >https://www.w3schools.com &rsaquo; whatis &rsaquo;
+            whatis_fullstack &dtrif;</a
+          >
+          <p class="card-text">
+            <strong>Full Stack Web Developer</strong>. A
+            <strong>full stack web developer</strong> is a person who can
+            develop both client and server software. In addition to mastering
+            HTML and CSS, ...
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

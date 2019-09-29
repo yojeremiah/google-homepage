@@ -29,10 +29,6 @@ img {
   border-bottom: 1px solid rgb(235, 235, 235);
 }
 
-.container {
-  width: 675px;
-}
-
 /* Navigation */
 #navbar {
   position: relative;
@@ -83,7 +79,7 @@ img {
   color: rgb(66, 133, 244);
   font-size: 17px;
   position: absolute;
-  top: 11px;
+  top: 13px;
   right: 85px;
 }
 
@@ -134,4 +130,47 @@ img {
 
 #settings-tab {
   margin-left: 4rem;
+}
+
+/* Results Section */
+.results-container {
+  width: 675px;
+  margin-left: 150px;
+}
+
+.total-results {
+  padding: 0 1rem;
+  color: rgb(112, 117, 122);
+  font-size: 14px;
+  line-height: 43px;
+}
+
+.result-card {
+  /* border: 1px solid red; */
+  padding: 0.5rem 1rem;
+  width: 90%;
+}
+
+.card-title {
+  display: block;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgb(26, 13, 171);
+  cursor: pointer;
+}
+
+.card-title:hover {
+  text-decoration: underline;
+}
+
+.card-link {
+  color: rgb(0, 102, 33);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-text {
+  color: rgb(84, 84, 84);
+  font-size: 14px;
+  line-height: 22px;
 }
