@@ -20,20 +20,26 @@
     <div id="page-wrapper">
       <!-- Navigation -->
       <nav id="navbar">
+        <img
+          src="img/results-logo.png"
+          alt="Pretzel Google Logo"
+          class="logo"
+        />
         <div class="navbar-flex-container">
-          <img
-            src="img/results-logo.png"
-            alt="Pretzel Google Logo"
-            class="logo"
-          />
-          <input type="text" name="search" id="search" maxlength="2048" />
+          <!-- Search Box -->
+          <div class="search-box">
+            <input type="text" name="search" id="search" maxlength="2048" />
+            <span class="placeholder-text"
+              ><i class="fa fa-search hourglass" aria-hidden="true"></i>
+            </span>
+          </div>
           <ul class="navbar-right">
-            <li>
+            <li class="navbar-right-item">
               <a href="https://github.com/yojeremiah" target="_blank"
                 ><img src="img/grid.png" alt="App Grid Icon"
               /></a>
             </li>
-            <li>
+            <li class="navbar-right-item">
               <a
                 href="https://github.com/yojeremiah"
                 target="_blank"
