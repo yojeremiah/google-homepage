@@ -174,3 +174,29 @@ img {
   font-size: 14px;
   line-height: 22px;
 }
+
+.accordion-list {
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 7px;
+  width: 90%;
+  margin: 1rem 0;
+}
+
+.list-title {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+}
+
+.list-item {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(229, 229, 229);
+  cursor: pointer;
+}
+
+.down-arrow {
+  height: 24px;
+  width: 24px;
+}
