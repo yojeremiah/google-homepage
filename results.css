@@ -24,16 +24,15 @@ img {
   font-family: 'Arial', sans-serif;
 }
 
-#nav-wrapper {
-  /* margin-left: 150px; */
-  border-bottom: 1px solid rgb(235, 235, 235);
-}
-
 /* Navigation */
 #navbar {
   position: relative;
   padding-top: 1.1rem;
   margin-left: 150px;
+}
+
+#nav-wrapper {
+  border-bottom: 1px solid rgb(235, 235, 235);
 }
 
 .logo {
@@ -56,16 +55,17 @@ img {
 
 #search {
   display: block;
-  width: 90%;
+  width: 95%;
   height: 44px;
   border-radius: 24px;
   font-size: 17px;
+  font-family: inherit;
   line-height: 34px;
   border-color: rgba(0, 0, 0, 0.87);
   color: rgba(0, 0, 0, 0.87);
   outline: 0;
   border: 1px solid #dfe1e5;
-  padding: 1rem;
+  padding: 1.15rem;
 }
 
 #search:hover,
@@ -80,7 +80,7 @@ img {
   font-size: 17px;
   position: absolute;
   top: 13px;
-  right: 85px;
+  right: 55px;
 }
 
 .navbar-right {
@@ -139,16 +139,15 @@ img {
 }
 
 .total-results {
-  padding: 0 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
   color: rgb(112, 117, 122);
   font-size: 14px;
-  line-height: 43px;
 }
 
 .result-card {
-  /* border: 1px solid red; */
-  padding: 0.5rem 1rem;
-  width: 90%;
+  padding: 1rem 1rem;
+  width: 95%;
 }
 
 .card-title {
@@ -178,8 +177,9 @@ img {
 .accordion-list {
   border: 1px solid rgb(229, 229, 229);
   border-radius: 7px;
-  width: 90%;
+  width: 95%;
   margin: 1rem 0;
+  color: rgb(34, 34, 34);
 }
 
 .list-title {
@@ -199,4 +199,70 @@ img {
 .down-arrow {
   height: 24px;
   width: 24px;
+  fill: rgb(112, 117, 122);
+}
+
+/* Videos */
+.video-container {
+  /* border: 1px solid red; */
+  margin-bottom: 300px;
+}
+
+.video-heading {
+  font-size: 20px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.video-card {
+  border: 1px solid rgb(223, 225, 229);
+  border-radius: 8px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-thumbnail {
+  display: block;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
+}
+
+.video-title {
+  display: block;
+  padding: 1rem;
+  color: rgb(26, 13, 171);
+}
+
+.video-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.channel-name {
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.video-footer {
+  margin-top: auto;
+}
+
+.date {
+  font-size: 12px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(128, 128, 128);
+}
+
+.date span {
+  color: rgb(0, 102, 33);
 }
