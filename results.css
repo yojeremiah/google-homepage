@@ -31,7 +31,7 @@ img {
   margin-left: 150px;
 }
 
-#nav-wrapper {
+.nav-container {
   border-bottom: 1px solid rgb(235, 235, 235);
 }
 
@@ -267,15 +267,13 @@ img {
   color: rgb(0, 102, 33);
 }
 
-.related-search-box {
-  /* border: 1px solid #000; */
-  margin-bottom: 200px;
-  padding-left: 1rem;
-}
-
 .related-heading {
   font-size: 20px;
   padding: 1.5rem 0;
+}
+
+.related-search-list {
+  padding-left: 1rem;
 }
 
 .related-search-list a {
@@ -288,4 +286,41 @@ img {
 
 .related-search-list a:hover {
   text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+  border-top: 1px solid rgb(228, 228, 228);
+  background-color: rgb(242, 242, 242);
+  font-size: 14px;
+}
+
+.footer-container {
+  margin-left: 150px;
+  width: 675px;
+  padding: 1rem 0;
+}
+
+.footer-text {
+  color: rgb(95, 99, 104);
+
+  padding-bottom: 1rem;
+}
+
+.footer-text strong {
+  color: rgb(51, 51, 51);
+}
+
+.footer-links {
+  display: flex;
+  color: rgb(95, 99, 104);
+}
+
+.footer-links a {
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+
+.footer-links a:hover {
+  color: #333;
 }
