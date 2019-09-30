@@ -205,7 +205,7 @@ img {
 /* Videos */
 .video-container {
   /* border: 1px solid red; */
-  margin-bottom: 300px;
+  padding: 1rem 0;
 }
 
 .video-heading {
