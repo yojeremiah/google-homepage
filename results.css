@@ -266,3 +266,26 @@ img {
 .date span {
   color: rgb(0, 102, 33);
 }
+
+.related-search-box {
+  /* border: 1px solid #000; */
+  margin-bottom: 200px;
+  padding-left: 1rem;
+}
+
+.related-heading {
+  font-size: 20px;
+  padding: 1.5rem 0;
+}
+
+.related-search-list a {
+  display: inline-block;
+  color: rgb(26, 13, 171);
+  cursor: pointer;
+  font-size: 14px;
+  padding-bottom: 0.75rem;
+}
+
+.related-search-list a:hover {
+  text-decoration: underline;
+}
